@@ -17,7 +17,7 @@ before_install:
   # Authenticate with google cloud
   - gcloud auth activate-service-account --key-file service-account.json
   # Set the project
-  - gloud config set project multi-k8s-436019
+  - gcloud config set project multi-k8s-436019
   # Set the compute zone
   - gcloud config set compute/zone us-east1-b
   # Set the cluster
